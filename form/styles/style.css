@@ -1,0 +1,42 @@
+html{
+	background:green;
+}
+body{
+	width:600px;
+	margin:0 auto;
+	background-color:#FF9500;
+	padding:0 20px20px 20px;
+	border:5px solid black;
+}
+#a{
+	color:red;
+}
+#b{
+	color:green;
+}
+#c{
+	color:black;
+}
+#d{
+	color:white;
+}
+h1{
+	font-size:50px;
+	text-align:center;
+	margin:0;
+	padding:20px 0;
+	color:#00539F;
+	text-shadow:3px 2px 4px yellow;
+	background-color:red;
+	border:10px solid gray;
+}
+li{
+	background-color:blue;
+	padding:6px;
+	margin:0 4px 4px 4px;
+	width:200px;
+	text-align:;
+}
+	 
+	
+	 

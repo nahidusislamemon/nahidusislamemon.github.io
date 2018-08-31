@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<link href="aa.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<form>
+<h1>Payment form</h1>
+<p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+<section>
+<h2>Contact information</h2>
+<fieldset>
+<legend>Title</legend>
+<ul>
+<li>
+<input type="radio" name=tytle"id="tytle_1" value="Mister">
+<label for="tytle_1">Mister</label>
+
+</li>
+<li>
+<input type="radio" id="tytle_2" name="tytle" value="Mis">
+<label for="tytle_2">Mis</label>
+
+</li>
+</ul>
+</fieldset>
+<P>
+<label for="name">
+<span>Name: </span>
+<strong><abbr title="required">*</abbr></strong></label>
+<input type="text" id="name" name="user_name">
+</p>
+<p>
+<label for="mail">
+<span>Email: </span>
+<strong><abbr title ="required">*</abbr> </strong></label>
+<input type="email" id="mail" name=user_email">
+</p>
+<p>
+<label for="pwd">
+<span>Password:</span>
+<strong><abbr title="required">*</abbr></strong></label>
+<input type="password" id="Pwd" name="user_password">
+</p>
+</section>
+
+<section>
+<h2>Payment information</h2>
+<p>
+<label for="Card">
+<span>Card type:</span></label>
+<select id="card" name="usercard">
+<option value="visa">Visa</option>
+<option id="mastercard">Mastercard</optopn>
+<option id="americanexpress">American Express</option>
+</select>
+</p>
+<p>
+<label for="number">
+<span>Card Number:</span>
+<strong><abbr title="required">*</abbr></strong>
+</label>
+<input type="text" id="number" name="cardnumber">
+</p>
+<p>
+<label for="date">
+<span>Expiration Date:</span>
+<strong><abbr title="required">*</abbr></strong>
+<em>formatted as dd/mm/yy</em>
+</label>
+<input type="text" id="date" name="expiration"
+</p>
+</section>
+<p> <button type="submit">Validate the payment</button> </p>
+
+</body>
+</html>
+
